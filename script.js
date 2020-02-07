@@ -30,9 +30,7 @@ function generatePassword () {
     //if (characterLength < 8 || characterLength > 128){}
  
     if (upperCaseChoice === true) {
-      console.log(upperCase)
       passwordCharacters = passwordCharacters.concat(upperCase)
-       console.log(passwordCharacters)
 
     }
     else if (lowerCaseChoice === true) {
